@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.cabecalho {
+    background-image: url('assets/imagem-corporativa-fv.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.div-header {
+    display: flex;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacao {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    height: 40px;
+    position: fixed;
+    right: 20%;
+    top: 10px;
+}
+
+.formata-ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.titulo-principal {
+    width: 100%;
+    text-align: center;
+    font-size: 54px;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.formata-a {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+.container {
+    padding: 30px;
+    background-color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.subtitulo-h2 {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+.rodape-body {
+    display: flex;
+    height: 100px;
+}
+
+.div-rodape-body {
+    display: block;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.organiza-img {
+    display: flex;
+    height: 70%;
+    width: 100%;
+}
+
+.div-img {
+    display: flex;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    display: inline;
+    margin: 15px;
+}
+
+.copy {
+    display: block;
+    width: 100%;
+    padding-bottom: 15px;
+    text-align: center;
+}
